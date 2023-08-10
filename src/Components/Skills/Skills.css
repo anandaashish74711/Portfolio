@@ -1,0 +1,187 @@
+.Skills__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    
+  }
+  
+  .Skills__container > div {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 3rem;
+    transition: var(--transition);
+     /* Added margin between boxes */
+   line-height: 2rem;
+   width: 300px;
+   height: 300px;
+  
+  }
+  
+  .Skills__container > div:hover {
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+  }
+  
+  .Skills__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+    line-height: 2rem;
+    white-space: nowrap; /* Prevent text from wrapping to the next line
+     Hide any overflow text
+    text-overflow: ellipsis; /* Add ellipsis (...) for truncated text if it overflows */
+  }
+  .Skills__container > div h4 {
+    line-height: 2rem;
+    white-space: nowrap; 
+  }
+  
+
+  
+  .Skills__content {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+  
+  /* Add the necessary styles for the Skills component here */
+
+.Skills__details {
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap; /* Prevent the text inside the details from wrapping */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .Skills__details-icons {
+    margin-top: 6px;
+    color: var(--color-primary);
+    flex-shrink: 0; /* Prevent the icons from shrinking and breaking the layout */
+  }
+  
+  
+/* Add the necessary styles for the Skills component here */
+
+/* Define styles for the Skills__Problem, Skills__Fundamental, Skills__Frontend, and Skills__Backend divs */
+
+/* Add media queries for small and medium devices */
+/* Adjust the styles for small and medium devices here */
+/* Add the necessary styles for the Skills component here */
+
+/* Define styles for the Skills__Problem, Skills__Fundamental, Skills__Frontend, and Skills__Backend divs */
+
+/* Add media queries for small and medium devices */
+/* Adjust the styles for small and medium devices here */
+@media screen and (max-width: 1024px) {
+    .Skills__container {
+      grid-template-columns: 1fr 1fr; /* Change to two columns for small screens */
+      gap: 1rem;
+    }
+  
+    .Skills__container > div {
+      width: 100%;
+      padding: 2rem;
+      margin: 0 auto;
+      /* Reduce the height of the boxes for small screens */
+      padding-bottom: calc(50% - 1rem); /* You can adjust the value (1rem) to control the bottom padding */
+    }
+  
+    .Skills__content {
+      padding: 1rem;
+    }
+  
+    .Skills__container > div h3 {
+      line-height: 1.5rem; /* Adjust the line-height for better spacing */
+    }
+  }
+  
+  /*=================MEDIA QUERIES (SMALL DEVICES)=================== */
+  @media screen and (max-width: 600px) {
+    .Skills__container {
+      grid-template-columns: 1fr; /* Change to a single column for the smallest screens */
+      gap: 1rem;
+      padding: 0 1rem;
+      justify-items: center;
+    }
+  
+    .Skills__container > div {
+      width: calc(100% - 2rem); /* Adjust the width to accommodate the gap */
+      padding: 1rem;
+      text-align: center;
+      border-radius: 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      /* Reduce the height of the boxes for small screens */
+      padding-bottom: calc(50% - 1rem); /* You can adjust the value (1rem) to control the bottom padding */
+    }
+  
+    .Skills__container > div h3,
+    .Skills__container > div h4 {
+      margin: 0.5rem 0;
+      white-space: nowrap;
+      
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Add the necessary styles for the Skills component here */
+
+/* Define styles for the Skills__Problem, Skills__Fundamental, Skills__Frontend, and Skills__Backend divs */
+
+/* Add media queries for small and medium devices */
+/* Adjust the styles for small and medium devices here */
+@media screen and (max-width: 1024px) {
+    .Skills__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+  
+    .Skills__container > div {
+      width: 100%;
+      padding: 2rem;
+      margin: 0 auto;
+      /* Reduce the height of the boxes for small screens */
+      padding-bottom: calc(50% - 1rem); /* You can adjust the value (1rem) to control the bottom padding */
+    }
+  
+    .Skills__content {
+      padding: 1rem;
+    }
+    
+    .Skills__container > div h3 {
+      line-height: 1.5rem; /* Adjust the line-height for better spacing */
+    }
+  }
+  
+  /*=================MEDIA QUERIES (SMALL DEVICES)=================== */
+  @media screen and (max-width: 600px) {
+    .Skills__container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 0 1rem;
+      justify-items: center;
+    }
+  
+    .Skills__container > div {
+      width: calc(80% - 2rem);
+      padding: 1rem;
+      text-align: center;
+      border-radius: 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      /* Reduce the height of the boxes for small screens */
+      padding-bottom: calc(50% - 1rem); /* You can adjust the value (1rem) to control the bottom padding */
+    }
+  
+    .Skills__container > div h3,
+    .Skills__container > div h4 {
+      margin: 0.5rem 0;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+  

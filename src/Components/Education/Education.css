@@ -1,0 +1,84 @@
+
+
+.Education__cards{
+    
+   width: 100%;
+    
+}
+.Education__icon{
+   height: 200px;
+   width:200px;
+}
+
+.Education__card{
+    background:var(--color-bg-variant) ;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 1px;
+    text-align: center;
+    transition: var(--transition);
+       
+} 
+.Education__details{
+    display: flex;
+    gap:1rem;
+}
+.Education1__details-icons{
+    height: 40px;
+    width:40px;
+}
+
+
+.Education__card:hover{
+    background: transparent;
+    background-origin: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default; 
+}
+.Education__container > div h4 {
+    line-height: 2rem;
+    white-space: nowrap; 
+  }
+  .Education__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+    line-height: 2rem;
+    white-space: nowrap; /* Prevent text from wrapping to the next line
+     Hide any overflow text
+    text-overflow: ellipsis; /* Add ellipsis (...) for truncated text if it overflows */
+  }
+  .Education__card{
+    display: flex;
+    gap:2rem;
+     justify-content: center;
+   align-items: center;
+  padding-left: 1px;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+    
+  }
+.icons{
+    width: 200px;
+    height: 350px;
+
+}
+.one__portion{
+    
+    flex-direction: column;
+    
+    align-items: right;
+}
+
+.edutext{
+    justify-content: left;
+    text-align: left;
+}
+.two__portion{
+    flex-direction: column;   
+   
+}
+
+
+
+
