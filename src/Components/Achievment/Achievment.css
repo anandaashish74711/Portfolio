@@ -7,11 +7,12 @@
   height: 120vh;
 }
 
+
 .Achievment__card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 2rem;
-  padding: 40px; /* Slightly decreased padding */
+  padding-right: 2rem; /* Slightly decreased padding */
   text-align: left;
   transition: var(--transition);
   max-width: 900px; /* Decreased maximum width for the card */
@@ -19,7 +20,9 @@
   margin: 40px auto; /* Slightly decreased margin */
   box-sizing: border-box;
   display: flex;
+  padding:2rem;
 }
+
 
 .Achievment__card:hover {
   background: transparent;
@@ -27,34 +30,68 @@
   border-color: var(--color-bg-variant);
 }
 
-.achievements-column,
-.coding-profiles-column {
-  flex: 1;
-  padding: 0 20px; /* Slightly decreased padding between columns */
-}
-
-.edutext {
+.achtext {
   display: flex;
   flex-direction: column;
   gap: 30px; /* Slightly decreased gap between content */
 }
 
-.edutext h3 {
+
+
+.achtext h3 {
   display: flex;
   align-items: center;
   gap: 15px; /* Slightly decreased gap */
   font-size: 24px; /* Slightly decreased font size */
+  text-align: center;
+  color: var(--color-primary);
+  word-break: break;
+  overflow: break-word;
+  
 }
 
-.edutext small {
+
+.text-light{
   font-size: 18px; /* Slightly decreased font size */
-  color: var(--color-text-light);
+  color: var(--color-primary);
 }
 
-.Education__details-icons {
+.Achievment__details-icons {
   font-size: 32px; /* Slightly decreased font size */
 }
 
-.one__portion {
-  text-align: center;
+
+
+@media (max-width: 768px) {
+  #Achievment {
+    height: auto; /* Adjust the height for small screens */
+  }
+  
+  .Achievment__card {
+    padding: 2rem; /* Adjusted padding for small screens */
+    /* Center the content for small screens */
+    flex-direction: column; /* Stack columns vertically for small screens */
+    max-width: 100%; /* Full width for small screens */
+    margin: 20px auto; /* Adjusted margin for small screens */
+  }
+ 
+  .achtext h3 {
+    font-size: 20px; /* Adjusted font size for small screens */
+  }
+
+ .achtext h4{
+  word-break: break;
+   overflow: break-word;
+}
+
+
+  .Achievment__details-icons {
+    font-size: 28px; /* Adjusted font size for small screens */
+  }
+}
+
+/* Media query for medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust your styles here for medium screens */
+
 }

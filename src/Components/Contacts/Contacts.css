@@ -13,6 +13,10 @@
     gap:1.2rem;
 
 }
+.contact__option h4{
+    word-break: break-word; /* Allows long words to break and wrap */
+    overflow-wrap: break-word;
+}
 .contact__option {
    background: var(--color-bg-variant); 
    padding: 1.8rem;
@@ -20,6 +24,7 @@
    text-align:center;
    border:1px solid transparent;
    transition: var(--transition);
+   
 }
 .contact__option:hover {
     background: transparent;

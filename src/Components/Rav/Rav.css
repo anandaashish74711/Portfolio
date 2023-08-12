@@ -46,13 +46,18 @@ nav {
   /* Small devices */
   @media screen and (max-width: 600px) {
     nav {
-      gap: 0.5rem; /* Adjust the gap between the links for small screens */
-      bottom: 0.5rem; /* Adjust the position from the bottom */
+      gap: 0.5rem;
+      bottom: 0.7rem;
+      display: flex;
+      /* Stack the links vertically */
+      align-items: center; /* Center items horizontally */
+    
     }
   
     nav a {
-      padding: 0.7rem; /* Adjust padding for small screens */
-      font-size: 0.9rem; /* Adjust font size for small screens */
+      padding: 0.7rem;
+      font-size: 0.9rem;
     }
   }
+  
   

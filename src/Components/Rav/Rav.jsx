@@ -13,8 +13,9 @@ const Rav = () => {
   return (
    <nav>
     <a href='#' className={activeNav==='#'?'active':''}><AiOutlineHome/></a>
-
+    {/* <a href='#about' onClick={()=>setactiveNav('#about')} className={activeNav==='#about'?'active':''}><FaUserGraduate/></a> */}
     <a href='#Education' onClick={()=>setactiveNav('#Education')} className={activeNav==='#Education'?'active':''}><FaUserGraduate/></a>
+
     <a href='#Experience'  onClick={()=>setactiveNav('#Experience')} className={activeNav==='#Experience'?'active':''}><FiBook/></a>
     <a href='#Skills' onClick={()=>setactiveNav('#Skills')} className={activeNav==='#Skills'?'active':''}><DiAtom/></a>
     <a href='#Projects' onClick={()=>setactiveNav('#Projects')} className={activeNav==='#Projects '?'active':''}><BsPersonWorkspace/></a>

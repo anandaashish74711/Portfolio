@@ -1,13 +1,13 @@
-/* Achievment.css */
 
-#Achievment {
+
+#Experience {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 120vh;
   }
   
-  .Achievment__card {
+  .Experience__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 2rem;
@@ -21,41 +21,30 @@
     display: flex;
   }
   
-  .Achievment__card:hover {
+  .Experience__card:hover {
     background: transparent;
     background-origin: transparent;
     border-color: var(--color-bg-variant);
   }
   
-  .achievements-column,
-  .coding-profiles-column {
-    flex: 1;
-    padding: 0 20px; /* Slightly decreased padding between columns */
-  }
   
-  .edutext {
+  
+  .exptext {
     display: flex;
     flex-direction: column;
     gap: 30px; /* Slightly decreased gap between content */
   }
   
-  .edutext h3 {
+  .exptext h3 {
     display: flex;
     align-items: center;
     gap: 15px; /* Slightly decreased gap */
     font-size: 24px; /* Slightly decreased font size */
   }
   
-  .edutext small {
-    font-size: 18px; /* Slightly decreased font size */
-    color: var(--color-text-light);
-  }
   
-  .Education__details-icons {
-    font-size: 32px; /* Slightly decreased font size */
-  }
   
-  .one__portion {
-    text-align: center;
-  }
+
+  
+  
   

@@ -1,5 +1,4 @@
 
-
 .Education__cards{
     
    width: 100%;
@@ -9,6 +8,13 @@
    height: 200px;
    width:200px;
 }
+.edutext small{
+    font-size: 0.8rem;
+    color: var(--color-light);
+}
+.Education__details-icons {
+    font-size: 32px; /* Slightly decreased font size */
+  }
 
 .Education__card{
     background:var(--color-bg-variant) ;
@@ -28,7 +34,6 @@
     width:40px;
 }
 
-
 .Education__card:hover{
     background: transparent;
     background-origin: transparent;
@@ -36,17 +41,19 @@
     cursor: default; 
 }
 .Education__container > div h4 {
-    line-height: 2rem;
-    white-space: nowrap; 
+    line-height: 0.2rem;
+    word-break: break;
+    overflow: break-word;
+   
   }
+ 
   .Education__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
-    line-height: 2rem;
-    white-space: nowrap; /* Prevent text from wrapping to the next line
-     Hide any overflow text
-    text-overflow: ellipsis; /* Add ellipsis (...) for truncated text if it overflows */
+    line-height: 1rem;
+   
+    
   }
   .Education__card{
     display: flex;
@@ -54,6 +61,7 @@
      justify-content: center;
    align-items: center;
   padding-left: 1px;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
     
@@ -74,9 +82,44 @@
     justify-content: left;
     text-align: left;
 }
+
 .two__portion{
     flex-direction: column;   
    
+}
+
+
+
+/* Media Queries (Medium and Small Devices) */
+@media screen and (max-width: 1023px) {
+    /* Hide the icon on medium and small screens */
+    .icons {
+        display: none;
+    }
+
+    /* Adjust the card layout for smaller screens */
+    .Education__card {
+        flex-direction: column;
+        padding: 1rem; /* Adjust padding as needed */
+    }
+
+    /* Allow text to wrap and prevent overflow */
+    .edutext {
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .Education__container > div h4 {
+        line-height: 2rem;
+        word-break: break;
+        overflow: break-word;
+       
+      }
+      .edutext small{
+        font-size: 0.8rem;
+        color: var(--color-light);
+    }
+    
 }
 
 
