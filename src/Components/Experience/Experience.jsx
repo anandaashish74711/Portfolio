@@ -3,13 +3,13 @@ import './Experience.css'
 const Experience = () => {
   return (
    <section id='Experience'>
-    <article className='Achievment__card'>
+    <article className='Experience__card'>
 
         
 
 <div className='one__portion'  >
 <h2>Experience</h2>
-<div className='edutext'>
+<div className='exptext'>
 <div>
 
 <small className='text-light'>(2020-2024)   CGPA:8.69</small>
