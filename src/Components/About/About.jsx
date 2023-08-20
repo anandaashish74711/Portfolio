@@ -21,29 +21,25 @@ const About = () => {
         <article className='about__card'>
           <BsPersonWorkspace className='about__icons'/>
           <h5>Projects</h5>
-          <small>I have 3+ projects on various TechStacks</small>
+          <small>I have 6+ projects on various Tech Stacks</small>
         </article>
 
 
         <article className='about__card'>
           <GiAchievement className='about__icons'/>
           <h5>Achievments</h5>
-          <small>Solved 300</small>
+          <small>Solved 500+ dsa problems on various platform</small>
         </article>
       
 
         <article className='about__card'>
           <DiAtom className='about__icons'/>
           <h5>Skills</h5>
-          <small>I am a full stack devloper</small>
+          <small>Pasionate devloper with good communication skills</small>
         </article>
        </div>
         <p>
-         Lorem ipsum dolor sit amet, consectetur 
-         adipisicing elit. Tempora praesentium laudantium
-          quisquam, dolor sunt veritatis debitis iusto dolore 
-          ipsam temporibus itaque sit voluptatibus omnis 
-         deserunt facilis atque repellat repellendus at!
+        Hi, I'm Aashish Anand, a passionate developer with expertise spanning the full stack. Blending creative front-end prowess with robust back-end architecture, I craft seamless, user-centric applications. My strong communication and collaborative skills enhance teamwork and project success.
          </p>
          <a href='#Contacts' className='btn btn-primary'>Let's Talk</a>
        </div>

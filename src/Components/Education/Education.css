@@ -100,7 +100,7 @@
     /* Adjust the card layout for smaller screens */
     .Education__card {
         flex-direction: column;
-        padding: 1rem; /* Adjust padding as needed */
+        padding: 1.5rem; /* Adjust padding as needed */
     }
 
     /* Allow text to wrap and prevent overflow */

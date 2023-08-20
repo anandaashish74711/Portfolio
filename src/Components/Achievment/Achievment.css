@@ -22,7 +22,10 @@
   display: flex;
   padding:2rem;
 }
-
+#white{
+  color: white;
+ padding-left: 20rem;
+}
 
 .Achievment__card:hover {
   background: transparent;
@@ -74,7 +77,22 @@
     max-width: 100%; /* Full width for small screens */
     margin: 20px auto; /* Adjusted margin for small screens */
   }
- 
+ /* Achievment.css */
+
+/* Existing styles... */
+
+.Achievment__card {
+  /* Existing styles... */
+  text-align: center; /* Center align the content inside the card */
+}
+
+#white {
+  /* Existing styles... */
+  padding-left: 0; /* Remove the padding on the left for center alignment */
+  text-align: center; /* Center align the text inside the #white element */
+  padding-left: 3rem;
+}
+
   .achtext h3 {
     font-size: 20px; /* Adjusted font size for small screens */
   }
@@ -93,5 +111,6 @@
 /* Media query for medium screens */
 @media (min-width: 769px) and (max-width: 1024px) {
   /* Adjust your styles here for medium screens */
-
+  
+  
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Experience.css'
+import {BsFillPatchCheckFill} from 'react-icons/bs'
 const Experience = () => {
   return (
    <section id='Experience'>
@@ -8,28 +9,36 @@ const Experience = () => {
         
 
 <div className='one__portion'  >
-<h2>Experience</h2>
+<h2 id='black'>Experience</h2>
 <div className='exptext'>
 <div>
 
-<small className='text-light'>(2020-2024)   CGPA:8.69</small>
-</div>
-
-<div>
-
-<h4>this is the right way to allign things in senter dbhkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</h4>
+<h4 id='blue'>Galaxy Technovation llp</h4>
 </div>
 
 
-<div>
 
-<small className='text-light'>(2020-2024)   CGPA:8.69</small>
-</div>
+<h4>
+<BsFillPatchCheckFill className='Skills__details-icons'/>  Engineered a comprehensive and visually captivating dashboard showcasing employee data, customer insights,sales trends, earnings, and more using cutting-edge technologies including React, React Context API, Syncfusion, and Material UI.
 
 
-<div>
+</h4>
 
-</div>
+
+
+
+<h4>
+<BsFillPatchCheckFill className='Skills__details-icons'/> Incorporate diverse components such as dynamic bar charts and insightful graphs to adeptly illustrate and elucidate complex data sets on the dashboard.
+</h4>
+
+
+
+
+  <h4>
+  <BsFillPatchCheckFill className='Skills__details-icons'/> Streamlined company operations by establishing a centralized hub for swift access and astute analysis of critical data, consequently enhancing workflow efficiency and informed decision-making.
+  </h4>
+
+
 </div>
 </div>
 

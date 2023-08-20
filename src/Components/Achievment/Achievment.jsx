@@ -12,7 +12,7 @@ const Achievment = () => {
 
 
 <div className='achtext'>
-<spexial id='spwork'>Achievment</spexial>
+<h3 section id='white'>Achievment</h3>
 <h3> <SiLeetcode className='Achievment__details-icons'/> Leetcode</h3>
 
 

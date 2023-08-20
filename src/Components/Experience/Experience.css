@@ -6,12 +6,30 @@
     align-items: center;
     height: 120vh;
   }
+  /* Existing styles... */
+
+.Skills__details-icons {
+ 
+  
+ 
+  gap: 15px; /* Add the desired gap between words and icons */
+}
+
+/* Existing styles... */
+
+  #blue{
+ color: var(--color-primary);
+  }
+  #black{
+    color: white;
+   padding-left: 20rem;
+  }
   
   .Experience__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 2rem;
-    padding: 40px; /* Slightly decreased padding */
+    padding: 3rem; /* Slightly decreased padding */
     text-align: left;
     transition: var(--transition);
     max-width: 900px; /* Decreased maximum width for the card */
@@ -19,6 +37,7 @@
     margin: 40px auto; /* Slightly decreased margin */
     box-sizing: border-box;
     display: flex;
+    
   }
   
   .Experience__card:hover {
@@ -41,9 +60,82 @@
     gap: 15px; /* Slightly decreased gap */
     font-size: 24px; /* Slightly decreased font size */
   }
-  
-  
-  
+ 
+  /* Experience.css */
+
+#Experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
+#blue {
+  color: var(--color-primary);
+}
+
+#black {
+  color: white;
+  padding-left: 20rem;
+}
+
+.Experience__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  padding: 3rem;
+  text-align: left;
+  transition: var(--transition);
+  max-width: 900px;
+  width: 85%;
+  margin: 40px auto;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.Experience__card:hover {
+  background: transparent;
+  background-origin: transparent;
+  border-color: var(--color-bg-variant);
+}
+
+.exptext {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.exptext h3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 24px;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  #black {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .Experience__card {
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 100%;
+    margin: 20px auto;
+  }
+
+  .exptext h3 {
+    font-size: 20px;
+  }
+}
+
+/* Media query for medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust your styles here for medium screens */
+}
+
 
   
   
