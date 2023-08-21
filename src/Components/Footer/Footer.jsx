@@ -13,6 +13,7 @@ const Footer = () => {
       <li><a href='#Experience'>Experience</a></li>
       <li><a href='#Skills'>Skills</a></li>
       <li><a href='#Projects'>Projects</a></li>
+      <li><a href='#Contacts'>contacts</a></li>
     </ul>
     <div className='footer__socials'>
       <a href='https://www.linkedin.com/in/aashish-anand7411/'><AiFillLinkedin/></a>
