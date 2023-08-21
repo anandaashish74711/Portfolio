@@ -1,7 +1,7 @@
 import React from 'react'
 import './Rav.css'
 import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
+
 import{FaUserGraduate}from 'react-icons/fa'
 import{FiBook}from 'react-icons/fi'
 import {DiAtom} from 'react-icons/di'

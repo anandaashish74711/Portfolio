@@ -37,12 +37,12 @@ const Skills = () => {
 
     <article className='Skills__details'>
    
-   <div>  <h4></h4></div>
+   
      <small className='text-light'></small>
     </article>
 
     <article className='Skills__details'>
-   <div>  <h4></h4></div>
+  
      <small className='text-light'></small>
     </article>
 
@@ -109,12 +109,12 @@ const Skills = () => {
 
     <article className='Skills__details'>
    
-   <div>  <h4></h4></div>
+
      <small className='text-light'></small>
     </article>
 
     <article className='Skills__details'>
-   <div>  <h4></h4></div>
+ 
      <small className='text-light'></small>
     </article>
 
