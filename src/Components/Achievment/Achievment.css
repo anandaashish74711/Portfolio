@@ -118,7 +118,7 @@
     /* Existing styles... */
     padding-left: 0; /* Remove the padding on the left for center alignment */
     text-align: center; /* Center align the text inside the #white element */
-    padding-left: 10rem;
+    padding-left: 4rem;
   }
 }
 

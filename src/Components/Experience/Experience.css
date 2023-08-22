@@ -80,6 +80,7 @@
 
 #blue {
   color: var(--color-primary);
+  padding-top: 1rem;
 }
 
 #black {
@@ -137,11 +138,17 @@
   .exptext h3 {
     font-size: 20px;
   }
+  #blue{
+    padding-top: 2rem;
+    padding-bottom: -1rem;
+    padding-left: 1rem;
+  }
 }
 
 /* Media query for medium screens */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px){
   /* Adjust your styles here for medium screens */
+  
 }
 
 
