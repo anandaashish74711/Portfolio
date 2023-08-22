@@ -45,8 +45,8 @@ const Projects = () => {
           <h4>	Developed the frontend of “Movix” application using React18 , Redux Toolkit,Axios to fetch data from REST APIs ensuring real-time updates and rendering of movie formation of the application.
 </h4>
           <div className='portfolio__item-cta'>
-          <a href='https://github.com/anandaashish74711/Portfolio' className='btn'>Github</a>
-          <a href='https://github.com/anandaashish74711?tab=repositories' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
+          <a href='https://github.com/anandaashish74711/Movix' className='btn'>Github</a>
+          <a href='https://github.com/anandaashish74711/Movix' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -58,7 +58,7 @@ const Projects = () => {
           <h4>Created a dynamic personal portfolio website using React 18, incorporating modern CSS and JavaScript techniques to showcase skills, projects,experience,achievements and contacts </h4>
           <div className='portfolio__item-cta'>
           <a href='https://github.com/anandaashish74711/Portfolio' className='btn'>Github</a>
-          <a href='https://github.com/anandaashish74711?tab=repositories' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
+          <a href='https://aashish-5597f.web.app/' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -69,8 +69,8 @@ const Projects = () => {
           <h3>To Do-List </h3>
           <h4>Designed and developed an interactive to-do list web application using HTML, CSS, and JavaScript. Implemented dynamic user interfaces, allowing users to add, edit, and remove tasks in real-time</h4>
           <div className='portfolio__item-cta'>
-          <a href='https://github.com/anandaashish74711/Portfolio' className='btn'>Github</a>
-          <a href='https://github.com/anandaashish74711?tab=repositories' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
+          <a href='https://github.com/anandaashish74711/T0-DO-list' className='btn'>Github</a>
+          <a href='https://github.com/anandaashish74711/T0-DO-list' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
           </div>
         </article>
 

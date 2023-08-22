@@ -12,7 +12,7 @@ const About = () => {
     <div className='container about__container'>
       <div className='about__me'>
         <div className='about__me-image'>
-          <img src={ME} />
+          <img src={ME} alt='my-image'/>
         </div>
       </div>
 
@@ -38,9 +38,15 @@ const About = () => {
           <small>Pasionate devloper with good communication skills</small>
         </article>
        </div>
+       
         <p>
-        Hi, I'm Aashish Anand, a passionate developer with expertise spanning the full stack. Blending creative front-end prowess with robust back-end architecture, I craft seamless, user-centric applications. My strong communication and collaborative skills enhance teamwork and project success.
+        Hi, I'm Aashish Anand, a passionate developer with expertise 
+        spanning the full stack. Blending creative front-end prowess 
+        with robust back-end architecture, I craft seamless,user-centric 
+        applications.My strong communication and collaborative skills 
+        enhance teamwork and project success.
          </p>
+        
          <a href='#Contacts' className='btn btn-primary'>Let's Talk</a>
        </div>
       </div>

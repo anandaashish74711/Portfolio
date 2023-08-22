@@ -19,9 +19,8 @@ const Experience = () => {
 
 
 <h4>
-<BsFillPatchCheckFill className='Skills__details-icons'/>  Engineered a comprehensive and visually captivating dashboard showcasing employee data, customer insights,sales trends, earnings, and more using cutting-edge technologies including React, React Context API, Syncfusion, and Material UI.
-
-
+<BsFillPatchCheckFill className='Skills__details-icons'/>
+Engineered a comprehensive and visually captivating dashboard showcasing employee data, customer insights,sales trends, earnings, and more using cutting-edge technologies including React, React Context API, Syncfusion, and Material UI.
 </h4>
 
 

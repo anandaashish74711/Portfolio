@@ -53,6 +53,14 @@
     flex-direction: column;
     gap: 30px; /* Slightly decreased gap between content */
   }
+  .exptext h4{
+    text-align: left;
+    display: inline-flex;
+  }
+  
+  .Skills__details-icons{
+    margin-right:10px ;
+  }
   
   .exptext h3 {
     display: flex;
