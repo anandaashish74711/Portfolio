@@ -168,13 +168,13 @@
     }
   
     .Skills__container > div {
-      width: calc(80% - 2rem);
+      width: calc(90% - 2rem);
       padding: 1rem;
       text-align: center;
       border-radius: 2rem;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       /* Reduce the height of the boxes for small screens */
-      padding-bottom: calc(50% - 1rem); /* You can adjust the value (1rem) to control the bottom padding */
+      padding-bottom: calc(50% - 0.7rem); /* You can adjust the value (1rem) to control the bottom padding */
     }
   
     .Skills__container > div h3,
