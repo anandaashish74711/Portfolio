@@ -21,7 +21,7 @@ const Projects = () => {
 
  </h4>
           <div className='portfolio__item-cta'>
-          <a href='https://github.com/anandaashish74711/Portfolio' className='btn'>Github</a>
+          <a href='https://github.com/anandaashish74711?tab=overview&from=2023-07-01&to=2023-07-31' className='btn'>Github</a>
           <a href='https://github.com/anandaashish74711?tab=repositories' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
           </div>
         </article>

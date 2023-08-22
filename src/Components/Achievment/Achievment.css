@@ -65,11 +65,15 @@
 
 
 
-@media (max-width: 768px) {
+/* Achievment.css */
+
+/* Existing styles... */
+
+@media (max-width: 480px) {
   #Achievment {
     height: auto; /* Adjust the height for small screens */
   }
-  
+
   .Achievment__card {
     padding: 2rem; /* Adjusted padding for small screens */
     /* Center the content for small screens */
@@ -77,40 +81,44 @@
     max-width: 100%; /* Full width for small screens */
     margin: 20px auto; /* Adjusted margin for small screens */
   }
- /* Achievment.css */
 
-/* Existing styles... */
+  .Achievment__card {
+    /* Existing styles... */
+    text-align: center; /* Center align the content inside the card */
+  }
 
-.Achievment__card {
-  /* Existing styles... */
-  text-align: center; /* Center align the content inside the card */
-}
-
-#white {
-  /* Existing styles... */
-  padding-left: 0; /* Remove the padding on the left for center alignment */
-  text-align: center; /* Center align the text inside the #white element */
-  padding-left: 3rem;
-}
+  #white {
+    /* Existing styles... */
+    padding-left: 0; /* Remove the padding on the left for center alignment */
+    text-align: center; /* Center align the text inside the #white element */
+    padding-left: 4rem;
+  }
 
   .achtext h3 {
     font-size: 20px; /* Adjusted font size for small screens */
   }
 
- .achtext h4{
-  word-break: break;
-   overflow: break-word;
-}
-
+  .achtext h4 {
+    word-break: break-word;
+    overflow-wrap: break-word; /* Use overflow-wrap instead of overflow for word wrap */
+  }
 
   .Achievment__details-icons {
     font-size: 28px; /* Adjusted font size for small screens */
   }
 }
 
-/* Media query for medium screens */
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* Adjust your styles here for medium screens */
-  
-  
+
+/* Achievment.css */
+
+/* Existing styles... */
+
+@media (max-width: 768px) {
+  #white {
+    /* Existing styles... */
+    padding-left: 0; /* Remove the padding on the left for center alignment */
+    text-align: center; /* Center align the text inside the #white element */
+    padding-left: 10rem;
+  }
 }
+

@@ -54,5 +54,18 @@ footer a{
     }
     .footer__socials{
 margin-bottom: 2.6rem;
+gap:1rem;
     }
+}
+@media screen and (max-width:740px){
+    .permalinks{
+        flex-direction: column;
+        gap:1rem;
+
+    }
+    .footer__socials{
+        margin-bottom: 2.6rem;
+        padding: 1px;
+            }
+        
 }
