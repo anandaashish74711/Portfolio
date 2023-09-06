@@ -34,7 +34,7 @@ const Projects = () => {
           <h4>Developed full-stack food delivery website with Reactjs,Redux and Tailwind CSS for an impressive user experience and interactive UI components  </h4>
           <div className='portfolio__item-cta'>
           <a href='https://github.com/anandaashish74711/Portfolio' className='btn'>Github</a>
-          <a href='https://github.com/anandaashish74711?tab=repositories' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
+          <a href='https://foodapp-41b9f.web.app/' className='btn btn-primary' tatrget='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
